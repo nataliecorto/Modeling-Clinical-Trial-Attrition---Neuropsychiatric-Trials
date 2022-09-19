@@ -35,7 +35,7 @@ Next : NLP using K-Mean clustering on dropout reasons
 - Master Dropout Reason Notebook.ipynb
 
 Next : Adverse Events using MedDRA ontology mapping 
-    - Load two files generated previously including 1. Distinct adverse reported events 2. Standardised MedDRA Queries 
+    - Load two files : 1. Distinct adverse reported events (distinct_reported_events.csv) 2. Standardised MedDRA Queries (smq_edited.csv)
 - adverse_Events.ipynb 
 - adverseEventTable.ipynb
     - Clean table so each individual trial has the number of affected patients per adverse event for that trial after adverse events have been recategorized from the free text.
