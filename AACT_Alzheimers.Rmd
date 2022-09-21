@@ -1,9 +1,4 @@
----
-title: "AACT_Alzheimers"
-author: "Natalie Cortopassi"
-date: "6/20/2022"
-output: html_document
----
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -15,8 +10,8 @@ library(connections) # helps RPostgres work with RStudio
 con <- connection_open(RPostgres::Postgres(),
           dbname = "aact",
           host = "aact-db.ctti-clinicaltrials.org",
-          user = "nc789",
-          password = "Ltw5cdfg@",
+          user = "username",
+          password = "password",
           # Tell the driver to return very large integers as floating point (vs truncating them)
           bigint = "numeric")
 ```
